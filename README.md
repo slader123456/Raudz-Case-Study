@@ -19,7 +19,7 @@ Calgary: 192.168.2.0 /24
 
 DHCP SCOPE: 192.168.2.100 /24 - 192.168.2.220 /24 (separate scope added to the DC01, allow zone transfers between Kelowna domain for redundancy)
 
-DC01 (RODC From DC01 and DC02 from Kelowna Domain, DFS): 192.168.2.1 /24
+DC01 (RODC From DC01 and DC02 from Kelowna Domain, DFS failover): 192.168.2.1 /24
 
 PC01: DHCP
 
