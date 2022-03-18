@@ -3,15 +3,17 @@
 
 Adressing structure:
 
-Kelowna:
+Kelowna: 192.168.1.0 /24
 
-DC01 (DHCP,DNS,AD,GPO,DFS,Stores drives and access / sharing privileges):
+DHCP SCOPE: 192.168.1.100 /24 - 192.168.1.220 /24
 
-DC02 (DHCP Failover 50-50, DNS failover, GPO failover, DFS failover): 
+DC01 (DHCP,DNS,AD,GPO,DFS,Stores drives and access / sharing privileges): 192.168.1.1 /24 
 
-PC01 (DCHP): 
+DC02 (DHCP Failover 50-50, DNS failover, GPO failover, DFS failover): 192.168.1.2 /24
 
-RRAS (VPN tunnel to Calgary domain): 
+PC01: DCHP 
+
+RRAS (VPN tunnel to Calgary domain): 192.168.1.3 /24
 
 
 Vernon:
