@@ -1,6 +1,5 @@
 # Raudz-Case-Study
 
-
 Addressing structure:
 
 Kelowna: 192.168.1.0 /24
