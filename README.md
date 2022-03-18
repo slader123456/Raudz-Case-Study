@@ -35,3 +35,5 @@ kel.raudz.com
 Calgary:
 cal.raudz.com
 
+Both subdomains of raudz.com (connect via transitive trusts)
+
