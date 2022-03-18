@@ -1,7 +1,7 @@
 # Raudz-Case-Study
 
 
-Adressing structure:
+Addressing structure:
 
 Kelowna: 192.168.1.0 /24
 
@@ -17,7 +17,8 @@ RRAS (VPN tunnel to Calgary domain): 192.168.1.3 /24
 
 
 Calgary: 192.168.2.0 /24
-DHCP SCOPE: 192.168.2.100 /24 - 192.168.2.220 /24
+
+DHCP SCOPE: 192.168.2.100 /24 - 192.168.2.220 /24 (separate scope added to the DC01, allow zone transfers between Kelowna domain for redundancy)
 
 DC01 (RODC From DC01 and DC02 from Kelowna Domain, DFS): 192.168.2.1 /24
 
@@ -33,5 +34,4 @@ kel.raudz.com
 
 Calgary:
 cal.raudz.com
-
 
