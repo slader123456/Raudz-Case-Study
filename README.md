@@ -5,7 +5,7 @@ Adressing structure:
 
 Kelowna:
 
-DC01 (DHCP,DNS,AD,GPO,DFS,):
+DC01 (DHCP,DNS,AD,GPO,DFS,Stores drives and access / sharing privileges):
 
 DC02 (DHCP Failover 50-50, DNS failover, GPO failover, DFS failover): 
 
