@@ -17,12 +17,13 @@ RRAS (VPN tunnel to Calgary domain): 192.168.1.3 /24
 
 
 Vernon: 192.168.2.0 /24
+DHCP SCOPE: 192.168.2.100 /24 - 192.168.2.220 /24
 
-DC01 (RODC From DC01 and DC02 from Kelowna Domain, DFS):
+DC01 (RODC From DC01 and DC02 from Kelowna Domain, DFS): 192.168.2.1 /24
 
-PC01 (DHCP):
+PC01: DHCP
 
-RRAS (VPN Tunnel to Kelowna domain):
+RRAS (VPN Tunnel to Kelowna domain): 192.168.2.3 /24
 
 
 New domain names:
