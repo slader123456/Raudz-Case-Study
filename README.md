@@ -20,4 +20,5 @@ DC01 (RODC From DC01 and DC02 from Kelowna Domain):
 
 PC01 (DHCP):
 
+RRAS (VPN Tunnel to Kelowna domain):
 
